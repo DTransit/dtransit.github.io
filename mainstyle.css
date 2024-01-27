@@ -1,0 +1,342 @@
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.logo {
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+    margin-right: auto;
+    display: inline-block;
+
+}
+
+.menu1 {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 17px;
+    cursor:pointer;
+    transition: 0.3s;
+
+}
+
+.menuicon {
+    width: 35px;
+    height: 5px;
+    background-color: #0307af;
+    margin: 6px 0;
+
+}
+
+.top {
+    vertical-align: middle;
+    display: inline-block;
+    text-align: right;
+    height: 60px;
+    padding-bottom: 20px;
+    position: sticky;
+}
+
+#topname {
+    font-family: "Lovelo 900", sans-serif;
+    display: inline-block;
+    margin-left: 10px;
+    position: absolute;
+}
+
+
+
+.middle {
+    width: auto;
+}
+
+.intro {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 0;
+    padding-top: 46.5%;
+    text-align: left;
+    vertical-align: top;
+    position: relative;
+
+}
+
+.intro1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    vertical-align: middle;
+    height: auto;
+}
+
+#maintext {
+    color: white;
+    font-family: "Lovelo 900", sans-serif;
+    position: absolute;
+    font-size: 6vw;
+    width: 90%;
+    height: 100%;
+    left: 0;
+    padding-top: 20%;
+    padding-left: 2vw;
+}
+
+#desc {
+    bottom: 0;
+    padding-top: 35%;
+    color: white;
+    font-family: "Lovelo 900", sans-serif;
+    font-size: 2vw;
+}
+
+.desc {
+    height: auto;
+    width: 63%;
+    bottom: 0;
+    position: absolute;
+    padding-bottom: 8vw;
+    padding-left: 2vw;
+}
+
+
+
+
+.youtube {
+    position: relative;
+    height: auto;
+    width: 99%;  
+}
+
+#title2 {
+    font-family: "Lovelo 900", sans-serif;
+    font-size: 3vw;
+    color: #0307af;
+    padding-left: 1vw;
+}
+
+#desc2 {
+    font-family: "Lovelo 900", sans-serif;
+    font-size: 1.5vw;
+    color: #0307af;
+    letter-spacing: .5px;
+    line-height: 1.5;
+    padding-left: 1vw;
+}
+
+.youtubedesc {
+    width: 75vw;
+}
+
+.videobutton {
+    position: absolute;
+    left: 80vw;
+    bottom: 7vw;
+    height: auto;
+    width: 15vw;
+    align-items: right;
+}
+
+#videos {
+    height: 5vw;
+    width: 100%;
+    position: relative; 
+    background: transparent;
+    border: 4px solid #0307af;
+    color: #0307af;
+    font-family: "Lovelo 900", sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+    font-size: 1.4vw;
+}
+
+#videos:hover {
+    background-color: #0307af;
+    border: 2px solid white;
+    color: white;
+}
+
+
+
+
+
+
+.socials {
+    position: relative;
+    height: auto;
+    width: 100%;
+    border: 2px solid white;
+}
+
+#socialtitle {
+    font-family: "Lovelo 900", sans-serif;
+    font-size: 3vw;
+    padding-left: 8vw;
+}
+
+.youtubebutton {
+    position: absolute;
+    left: 35vw;
+    bottom: 1.25vw;
+    width: 20vw;
+}
+
+.socialbutton {
+    position: absolute;
+    left: 65vw;
+    bottom: 1.25vw;
+    width: 20vw;
+}
+
+#youtubebutton {
+    height: 5vw;
+    width: 100%;
+    position: relative;
+    border: 4px solid red;
+    cursor: pointer;
+    transition: 0.1s;
+    background-color: red;
+    color: white;
+    font-family: 'Youtube Sans', sans-serif;
+    font-size: 3vw;
+}
+
+#youtubebutton:hover {
+    background-color: white;
+    color: red;
+    font-family: 'Youtube Sans', sans-serif;
+    font-size: 3vw;
+}
+
+#instabutton {
+    height: 5vw;
+    width: 100%;
+    position: relative;
+    border: 4px solid black;
+    color: white;
+    cursor: pointer;
+    font-family: "Youtube Sans", sans-serif;
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    transition: 0.3s;
+    background-color: red;
+    font-size: 3vw;
+}
+
+#instabutton:hover {
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    background-color: white;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 3vw;
+}
+
+
+
+
+
+
+
+
+.contact {
+    position: relative;
+    height: 38vw;
+    width: 100%;
+    text-align: center;
+    background-color: #0307af;
+}
+
+#contacttitle {
+    padding-top: 10px;
+    font-family: "Lovelo 900", sans-serif;
+    font-size: 3vw;
+    font-weight: bold;
+    color: white;
+}
+
+#contactdesc {
+    font-family: "Lovelo 900", sans-serif;
+    font-size: 1.25vw;
+    font-weight: bold;
+    color: white;
+}
+
+label {
+    font-family: "Lovelo 900", sans-serif;
+    font-size: 1.5vw;
+    color: white;
+}
+
+input {
+    height: 2vw;
+    width: 23vw;
+}
+
+#message {
+    height: 10vw;
+    width: 30vw;
+}
+
+#submit {
+    position: relative;
+    top: 1vw;
+    height: 5vw;
+    width: 15vw;
+    background-color: white;
+    color: #0307af;
+    border: 2px solid black;
+    transition: 0.3s;
+    font-family: "Lovelo 900", sans-serif;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+#submit:hover {
+    background-color: #0307af;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
